@@ -8,7 +8,18 @@ models.sequelize.sync({force: true})
       firstName: 'John',
       lastName: 'Hancock',
       emailAddress: 'a@a.com'
-    });        
+    });     
+    
+    models.Password.create({
+      originalPassword: 'xxx',
+      newPassword: 'nnn',
+      changedAt: '',
+      attempts: 1,
+      changedNum: 1,
+      userId: 1
+    });
+    
+       
     console.log('[models/initDb.js] sequelize sync success');
 })
   .catch(function(err) {

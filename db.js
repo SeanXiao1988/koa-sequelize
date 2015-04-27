@@ -1,5 +1,5 @@
-var Sequelize = require('Sequelize');
-var sequelize = new Sequelize('test', 'tsari', '123456', {
+var Sequelize = require('sequelize');
+var sequelize = new Sequelize('test', 'root', '1', {
   host: 'localhost',
   dialect: 'mysql',
 
@@ -8,6 +8,7 @@ var sequelize = new Sequelize('test', 'tsari', '123456', {
     min: 0,
     idle: 10000
   },
+  //storage: 'test.sqlite',
   
 });
 
