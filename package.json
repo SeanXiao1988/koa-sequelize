@@ -10,9 +10,9 @@
     "koa": ">=0.2.0",
     "koa-logger": ">=1.1.0",
     "koa-route": ">=1.0.2",
-    "mysql": "^2.6.2",
+    "pg": "^4.4.0",
+    "pg-hstore": "^2.3.2",
     "sequelize": "^2.0.6",
-    "sqlite3": "^3.0.5",
     "swig": ">=1.2.2"
   },
   "engines": {
