@@ -1,7 +1,7 @@
 //var Sequelize = require('sequelize');
 
 module.exports = function(sequelize, DataTypes){
-    return sequelize.define('password',{
+    return sequelize.define('postcode',{
       town: {
         type: DataTypes.STRING(20)    
       },
