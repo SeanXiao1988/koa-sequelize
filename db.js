@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
-var sequelize = new Sequelize('test', 'root', '1', {
+var sequelize = new Sequelize('therealfaces', 'therealfaces', '1', {
   host: 'localhost',
-  dialect: 'mysql',
+  dialect: 'postgresql',
 
   pool: {
     max: 5,
