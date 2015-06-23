@@ -13,7 +13,6 @@ models.sequelize.sync({force: true})
     models.Password.create({
       originalPassword: 'xxx',
       newPassword: 'nnn',
-      changedAt: '',
       attempts: 1,
       changedNum: 1,
       userId: 1
